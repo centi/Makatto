@@ -1,6 +1,6 @@
 {
   "name": "makatto",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Simple Node.js command line utility which helps with prototyping a static website. It helps to compile your HTML templates and other resources (JS, LESS). It can also run as a web server with a Livereload (file watcher) feature.",
   "keywords": ["stack", "watcher", "compile", "less", "sourcemap", "server", "livereload", "minify"],
   "main": "./bin/makatto.js",
