@@ -68,7 +68,5 @@ APP.rebuild();
 
 if (config.options.server === true) {
 	APP.serve();
-	if (config.options.livereload === true) {
-		APP.watch();
-	}
+	APP.watch();
 }
