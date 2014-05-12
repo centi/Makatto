@@ -1,0 +1,34 @@
+{
+  "name": "makatto",
+  "version": "2.0.3",
+  "description": "Simple Node.js command line utility which helps with prototyping a static website. It helps to compile your HTML templates and other resources (JS, LESS). It can also run as a web server with a Livereload (file watcher) feature.",
+  "keywords": ["stack", "watcher", "compile", "less", "sourcemap", "server", "livereload", "minify"],
+  "main": "./bin/makatto.js",
+  "bin": "./bin/makatto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Čentéš",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "dependencies": {
+    "watchr": "^2.4.11",
+    "commander": "^2.2.0",
+    "glob": "^3.2.9",
+    "swig": "^1.3.2",
+    "less": "^1.7.0",
+    "express": "^4.1.1",
+    "serve-index": "^1.0.2",
+    "socket.io": "^0.9.16",
+    "uglify-js": "^2.4.13",
+    "keypress": "^0.2.1"
+  },
+  "homepage": "https://github.com/centi/Makatto/",
+  "bugs": "https://github.com/centi/Makatto/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/centi/Makatto.git"
+  }
+}
